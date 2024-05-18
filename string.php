@@ -1,5 +1,4 @@
 <?php
-
 function countVowels($str)
 {
      $vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];
@@ -11,9 +10,7 @@ function countVowels($str)
      }
      return $count;
 }
-
 $strings = ["Hello", "World", "PHP", "Programming"];
-
 foreach ($strings as $string) {
      $vowelCount = countVowels($string);
      $reversedString = strrev($string);
